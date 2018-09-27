@@ -7,7 +7,7 @@ public class MakeChange {
 		// TODO Auto-generated method stub
 
 		double currentMoney = 435.09;
-		Scanner input = new Scanner(System.in)
+		Scanner input = new Scanner(System.in);
 	}
 
 }
