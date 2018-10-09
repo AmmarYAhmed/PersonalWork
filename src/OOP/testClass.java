@@ -7,12 +7,8 @@ public class testClass {
 
 		Greeter bob = new Greeter();
 		Friend john = new Friend();
-		bob.sayHello();
-		bob.sayHello();
-		bob.sayHello();
-		john.sayMessage();
-		bob.sayHello();
-		
+		bob.getAge();
+		bob.setAge(6);
 	}
 
 }
