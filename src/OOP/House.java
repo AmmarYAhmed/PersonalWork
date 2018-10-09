@@ -29,6 +29,6 @@ public class House {
 		
 		int volume = (length*width*depth);
 		int hours = volume/transport;
-		3return hours;
+		return hours;
 	}
 }
