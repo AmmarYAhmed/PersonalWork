@@ -17,7 +17,7 @@ public class Circle {
 	
 	public double circumference()
 	{
-		double circumference = (radius*2)*Math.PI;
+		double circumference = radius*2*Math.PI;
 		return circumference;
 	}
 	

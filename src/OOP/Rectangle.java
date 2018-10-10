@@ -1,4 +1,4 @@
-package OOP;
+ package OOP;
 
 public class Rectangle {
 
