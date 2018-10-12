@@ -22,6 +22,26 @@ public class RightTriangle {
 		return hypot;
 	}
 	
+	public int getBase()
+	{
+		return base;
+	}
+	
+	public int getHeight()
+	{
+		return height;
+	}
+	
+	public void setBase (int bob)
+	{
+		bob = base;
+	}
+	
+	public void setHeight (int bob)
+	{
+		bob = height;
+	}
+	
 	public double perimeter()
 	{
 		double perimeter = (base+base)+(height+height);

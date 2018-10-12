@@ -26,6 +26,16 @@ public class Cat {
 		return sleep;
 	}
 	
+	public void setAge(int bob)
+	{
+		bob = age;
+	}
+	
+	public void setSleep(int bob)
+	{
+		bob = sleep;
+	}
+	
 	public int birthday()
 	{
 		return age+1;

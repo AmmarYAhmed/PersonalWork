@@ -10,6 +10,10 @@ public class Circle {
 	
 	}
 	
+	public Circle(double radius)
+	{
+	}
+	
 	public double getRadius()
 	{
 		return radius;

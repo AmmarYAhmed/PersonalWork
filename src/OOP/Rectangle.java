@@ -12,6 +12,11 @@ private double width;
 	
 	}
 	
+	public Rectangle(double length, double width)
+	{
+	
+	}
+	
 	public double getLength()
 	{
 		return length;

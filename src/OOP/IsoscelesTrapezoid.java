@@ -40,6 +40,26 @@ public class IsoscelesTrapezoid {
 		return leg;
 	}
 	
+	public void setBase1 (int bob)
+	{
+		bob = base1;
+	}
+	
+	public void setBase2 (int bob)
+	{
+		bob = base2;
+	}
+	
+	public void setHeight (int bob)
+	{
+		bob = height;
+	}
+	
+	public void setLeg (int bob)
+	{
+		bob =leg;
+	}
+	
 	public double perimeter()
 	{
 		double perimeter = base1+base2+leg+leg;
