@@ -17,7 +17,10 @@ public class IsoscelesTrapezoid {
 	
 	public IsoscelesTrapezoid(int base1, int base2, int height, int leg)
 	{
-		
+		base1 = base1;
+		base2 = base2;
+		height = height;
+		leg = leg;
 	}
 	
 	public double getBase1()
