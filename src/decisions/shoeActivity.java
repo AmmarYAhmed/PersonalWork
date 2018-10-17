@@ -7,10 +7,14 @@ public class shoeActivity {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("What is your height and shoe size?");
-		double height = input.nextDouble();
-		double shoeSize = input.nextDouble();
-		System.out.println("height" == height);
+		System.out.println("Give me two test scores");
+		double test1 = input.nextDouble();
+		double test2 = input.nextDouble();
+		
+		if (test1>test2)
+		{
+			System.out.println("Great job, you entered the tests in the correct order");
+		}
 		
 	}
 
