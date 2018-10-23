@@ -20,7 +20,7 @@ public class weight {
 		
 		switch (menu_choice)
 		{
-			Mercury:
+			
 				 
 		}
 	}

@@ -15,7 +15,7 @@ public class temperature {
 		}
 		else
 		{
-			if (temperature)
+			if (temperature>74)
 			{
 				
 			}
