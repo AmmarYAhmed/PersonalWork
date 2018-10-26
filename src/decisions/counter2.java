@@ -7,13 +7,13 @@ public class counter2 {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("What is your favorite number?");
-		int num=input.nextInt();
+		int total = 0;
 		int counter = 0;
-		for(counter=num;)
+		for(counter=1; counter<=10; counter++)
 		{
-			System.out.println(counter + " Hello");
+			total += counter;
 		}
+		System.out.println(total);
 	}
 
 }
