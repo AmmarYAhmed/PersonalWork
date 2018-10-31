@@ -14,8 +14,7 @@ public class largeSmall {
 		double smallest = 0;
 
 		while (test != 9999) {
-			System.out.println("Gimme a test score");
-			test = input.nextDouble();
+			
 
 			if (test > largest) {
 				largest = test;
@@ -26,7 +25,8 @@ public class largeSmall {
 			{
 				smallest = test;
 			}
-
+			System.out.println("Gimme a test score");
+			test = input.nextDouble();
 		}
 
 		System.out.println("largest is " + largest);
