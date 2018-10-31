@@ -14,13 +14,14 @@ public class testScores {
 		
 		while (test != 9999)
 		{
+			if (test != 9999) {
 			System.out.println("Gimme a test score");
 			test = input.nextDouble();
 			if (test>= 70)
 			{
 				sum = sum+test;
 				count++;
-			}
+			}}
 		}
 		System.out.println(sum);
 		System.out.println(sum/count);
