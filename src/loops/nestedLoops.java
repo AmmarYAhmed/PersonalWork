@@ -5,14 +5,16 @@ public class nestedLoops {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int number = 0;
-		for(number = 1; number <=5; number++ )
+		int num = 0;
+		int num2 = 0;
+
+		for(num = 1; num <=5; num++ )
 		{
-			System.out.print(number + "   ");
-			if (number == 3)
+			for (num2 = 1; num2 <= 10; num2++)
 			{
-				System.out.print(" 1 ");
+				System.out.print(num * num2 + "	");
 			}
+			System.out.println();
 		}
 	}
 
