@@ -1,5 +1,6 @@
 package loops;
 
+import java.util.Scanner;
 public class calculator {
 
 	public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class calculator {
 		System.out.println("4. Round up");
 		System.out.println("5. Round down");
 		System.out.println("6. Quit");
+		
+		Scanner input = new Scanner(System.in);
 	}
 
 }
