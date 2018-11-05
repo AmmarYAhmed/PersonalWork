@@ -5,7 +5,7 @@ public class russianFirstGraders {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Random height = new Random (5);
+		Random height = new Random ();
 		int min = 26;
 		int max = 43;
 		int each = 0;
