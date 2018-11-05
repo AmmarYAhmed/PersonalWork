@@ -14,7 +14,7 @@ public class coinFlip {
 		int heads = 0;
 		int tails = 0;
 		
-		for (flip=1; flip<=100000; flip++)
+		for (flip=1; flip<=1000000000; flip++)
 		{
 			side = min + coin.nextInt (max - min + 1);
 			if (side==1)
