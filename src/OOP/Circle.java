@@ -6,7 +6,7 @@ public class Circle {
 	
 	public Circle()
 	{
-	radius = 23;
+	radius = 0;
 	
 	}
 	
