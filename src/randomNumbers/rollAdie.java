@@ -14,14 +14,16 @@ public class rollAdie {
 		int max = input.nextInt();
 		System.out.println("What is the amount of rolls" );
 		int rolls = input.nextInt();
+		int side = 0;
 		
 		if (max>=min)
 		{
-		for (int roll=1; roll)
+		for (int roll=1; roll<=rolls; roll++)
 		{
-			
+			side = min + die.nextInt (max - min + 1);
+			System.out.println(side);
 		}
-		}s
+		}
 	}
 
 }
