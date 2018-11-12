@@ -9,7 +9,10 @@ public class compareToPractice {
 		Scanner input = new Scanner(System.in);
 		String word1 = input.nextLine();
 		String word2 = input.nextLine();
-		System.out.println(word1.compareTo(word2));
+		if ((word1.compareTo(word2)<0))
+		{
+			
+		}
 	}
 
 }
