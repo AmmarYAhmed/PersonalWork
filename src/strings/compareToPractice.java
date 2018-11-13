@@ -13,6 +13,7 @@ public class compareToPractice {
 		{
 			
 		}
+		System.out.println((word1.compareTo(word2)));
 	}
 
 }
