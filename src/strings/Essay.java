@@ -26,10 +26,28 @@ public class Essay {
 	}
 	public String firstName()
 	{
-		int zero = 0;
-		int space = name.indexOf(' ');
+		int space = name.indexOf(' ')+1;
 		String name2 = name.substring(0,space);
-		return name2;
+		return name2.length();
+	}
+	public boolean containX()
+	{
+		if(name.contains('X'))
+		{
+			return true;
+		}
+	}
+	public int numOfWords()
+	{
+		int spaces = 0;
+		for (int times = 0; times<text.length(); times++)
+		{
+			if (text.charAt(times)==' ')
+			{
+				spaces++;
+			}
+		}
+		return spaces;
 	}
 	
 }
