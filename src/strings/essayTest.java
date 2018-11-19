@@ -8,7 +8,7 @@ public class essayTest {
 		Essay bob = new Essay();
 		
 		System.out.println(bob.capitalLastName());
-		System.out.println(bob.firstName());
+		
 	}
 
 }
