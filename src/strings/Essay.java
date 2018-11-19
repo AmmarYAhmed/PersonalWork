@@ -24,19 +24,14 @@ public class Essay {
 		
 		return name.substring(space).toUpperCase();
 	}
-	public String firstName()
+	public void firstName()
 	{
 		int space = name.indexOf(' ')+1;
 		String name2 = name.substring(0,space);
-		return name2.length();
+		
 	}
-	public boolean containX()
-	{
-		if(name.contains('X'))
-		{
-			return true;
-		}
-	}
+	
+	
 	public int numOfWords()
 	{
 		int spaces = 0;
