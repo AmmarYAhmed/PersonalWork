@@ -14,7 +14,7 @@ public class numberOfWords {
 			if(sentence.charAt(i)==' ')
 			{
 				words++;
-				word = sentence.substring(beginIndex, endIndex)
+				
 			}
 		}
 	}
