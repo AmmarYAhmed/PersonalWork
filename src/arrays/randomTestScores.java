@@ -15,7 +15,7 @@ public class randomTestScores {
 		int min =  0;
 		int max = 1000;
 		
-		for (int i = 0; i<250; i++)
+		for (int i = 0; i<tests.length; i++)
 		{
 		System.out.print("Test Score: ");
 			tests[i] = min + test.nextInt (max - min + 1);
