@@ -1,39 +1,29 @@
 package OOP;
 
 public class Circle {
-
-	private double radius;
-	
-	public Circle()
-	{
-	radius = 0;
-	
-	}
-	
-	public Circle(double radius)
-	{
-	}
-	
-	public double getRadius()
-	{
-		return radius;
-	}
-	
-	public double circumference()
-	{
-		double circumference = radius*2*Math.PI;
-		return circumference;
-	}
-	
-	public double area()
-	{
-		double area = (radius*radius)*Math.PI;
-		return area;
-	}
-	
-	
-	public void setRadius(double bob)
-	{
-		radius = bob;
-	}
+    private double radius;
+    public Circle() {
+        radius = 10;
+    }
+    public Circle(double xRadius) {
+        if (xRadius > 0)
+            radius = xRadius;
+        else
+            radius = 10;
+    }
+    public double getRadius() {
+        return radius;
+    }
+    public void setRadius(double xRadius) {
+        if (xRadius > 0)
+            radius = xRadius;
+        else
+            radius = 10;
+    }
+    public double area() {
+        return radius * radius * Math.PI;
+    }
+    public double circumference() {
+        return radius * 2 * Math.PI;
+    }
 }
