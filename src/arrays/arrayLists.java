@@ -8,12 +8,10 @@ public class arrayLists {
 
 		Scanner input = new Scanner(System.in);
 		String name = "";
-		ArrayList<String> names = new ArrayList<String>();
-		names.add("Bob");
-		names.add("Jane");
-		names.add(0, "Billy");
-		System.out.println("What's your name?");
-		names.add(input.nextLine());
+		ArrayList<Friend> names = new ArrayList<Friend>();
+		names.add(2, new Friend("Bob",23));
+		names.add(1, new Friend("Billy",23));
+		names.add(0, new Friend("Joe",23));
 		
 		System.out.println(names);
 		/*
