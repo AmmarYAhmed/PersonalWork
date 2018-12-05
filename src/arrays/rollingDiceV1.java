@@ -13,17 +13,25 @@ public class rollingDiceV1 {
 		int sides = input.nextInt();
 		int min = 1;
 		int max = sides;
+		int num = 0;
 		System.out.println("Number of students");
 		int students = input.nextInt();
 		System.out.println("Number of rolls per student");
 		int rollsPerStudent = input.nextInt();
+		System.out.println("Give a value");
+		int value = input.nextInt();
+		int times = 0;
 		int [][] rolls = new int [students][rollsPerStudent];
 		for (int row=0; row<rolls.length;row++)
 		{
-			for (int column=0; column<rolls[0].length;row++)
+			for (int column=0; column<rolls[0].length;column++)
 			{
-				sides = min + generator.nextInt (max - min + 1);
-				rolls[row][column] = sides;
+				num = min + generator.nextInt (max - min + 1);
+				rolls[row][column] = num;
+				if (num==value)
+				{
+					times++;
+				}
 			}
 		}
 		for (int row=0; row<rolls.length;row++)
@@ -34,6 +42,7 @@ public class rollingDiceV1 {
 			}
 			System.out.println();
 		}
+		System.out.println("Your value was rolled " + times + " times");
 				
 	}
 
