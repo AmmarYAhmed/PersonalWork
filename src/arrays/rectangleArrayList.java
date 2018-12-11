@@ -13,11 +13,13 @@ public class rectangleArrayList {
 		int min = 1;
 		int length =0;
 		int width = 0;
+		double largest = 0.0;
 		for (int k=0; k<20; k++)
 		{
 			length = min + generator.nextInt (max - min + 1);
 			width = min + generator.nextInt (max - min + 1);
 			shapes.add(new Rectangle(length,width));
+			if (largest)
 		}
 		
 	}
