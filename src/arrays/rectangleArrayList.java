@@ -19,7 +19,6 @@ public class rectangleArrayList {
 			length = min + generator.nextInt (max - min + 1);
 			width = min + generator.nextInt (max - min + 1);
 			shapes.add(new Rectangle(length,width));
-			if (largest)
 		}
 		
 	}
