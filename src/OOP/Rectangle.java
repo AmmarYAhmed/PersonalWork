@@ -1,53 +1,41 @@
  package OOP;
 
-public class Rectangle {
+ public class Rectangle {
 
-private double length;
-private double width;
-	
-	public Rectangle()
-	{
-	length = 23;
-	width = 24;
-	
+		private int length;
+		private int width;
+
+		public Rectangle() {
+			length = 10;
+			width = 10;
+		}
+
+		public Rectangle(int xLength, int xWidth) {
+			length = xLength;
+			width = xWidth;
+		}
+
+		public int getLength() {
+			return length;
+		}
+
+		public int getWidth() {
+			return width;
+		}
+
+		public void setLength(int xLength) {
+			length = xLength;
+		}
+
+		public void setWidth(int xWidth) {
+			width = xWidth;
+		}
+
+		public int perimeter() {
+			return length * 2 + width * 2;
+		}
+
+		public int area() {
+			return length * width;
+		}
 	}
-	
-	public Rectangle(double length, double width)
-	{
-	
-	}
-	
-	public double getLength()
-	{
-		return length;
-	}
-	
-	public double getWidth()
-	{
-		return width;
-	}
-	
-	public double perimeter()
-	{
-		double perimeter = (length*2)+(width*2);
-		return perimeter;
-	}
-	
-	public double area()
-	{
-		double area = length*width;
-		return area;
-	}
-	
-	
-	public void setLength(double bob)
-	{
-		length = bob;
-	}
-	
-	public void setWidth(double bob)
-	{
-		width = bob;
-	}
-	
-}

@@ -10,6 +10,10 @@ private int age;
 	{
 		//Statements to initialize the state of the object
 	}
+	public Greeter(int xAge)
+	{
+		age = xAge;
+	}
 	//methods - things the object can do
 	public void sayHello()
 	{

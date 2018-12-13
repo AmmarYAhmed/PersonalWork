@@ -1,4 +1,4 @@
-package OOP;
+package arrays;
 
 public class Friend 
 {

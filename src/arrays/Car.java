@@ -1,4 +1,4 @@
-package OOP;
+package arrays;
 
 public class Car {
 	
@@ -66,3 +66,5 @@ public void setMPG(double newMpg)
         odometer = odometer + milesTraveled;
     }
 }
+
+
