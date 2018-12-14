@@ -2,9 +2,17 @@ package recursion;
 
 public class sumTheNumbers {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int sum;
+		public int sumNum(int num)
+		{
+			
+			if(num>0)
+			{
+				sum+=num;
+			}
+			return sum;
+		}
+		System.out.println(sumNum(5));
 	}
 
-}
+
