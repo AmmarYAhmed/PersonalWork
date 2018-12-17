@@ -12,7 +12,7 @@ public class sumTheNumbers {
 			}
 			return sum;
 		}
-		System.out.println(sumNum(5));
+		
 	}
 
 
