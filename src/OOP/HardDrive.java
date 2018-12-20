@@ -13,7 +13,7 @@ public HardDrive(String xName, int xFile, int xCapacity, int xSpace)
 	capacity= xCapacity;
 	space= xSpace;
 } 
-public void addFile()
+public void addFile(int newFile)
 {
 	
 }
