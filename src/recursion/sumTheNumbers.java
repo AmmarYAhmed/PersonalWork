@@ -2,15 +2,19 @@ package recursion;
 
 public class sumTheNumbers {
 
-		int sum;
+		
+		public sumTheNumbers()
+		{
+			
+		}
 		public int sumNum(int num)
 		{
 			
-			if(num>0)
+			if(num>1)
 			{
-				sum+=num;
+				return (num +sumNum(num-1));
 			}
-			return sum;
+		return num;
 		}
 		
 	}
