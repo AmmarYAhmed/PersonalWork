@@ -31,7 +31,7 @@ public class moreInterfacePractice {
 		System.out.println(smallest);
 		*/
 		
-		Teacher bob= new Teacher();
+		/* Teacher bob= new Teacher();
 		Teacher joe = new Teacher();
 		Student julia = new Student();
 		Student emily = new Student();
@@ -49,6 +49,28 @@ public class moreInterfacePractice {
 			{
 				System.out.println(temp.getAge());
 			}
+		} */
+		
+		Teacher bob= new Teacher();
+		Teacher joe = new Teacher();
+		Student julia = new Student();
+		Student emily = new Student();
+		ArrayList<Person> people = new <Shape>ArrayList();
+		people.add(bob);
+		people.add(joe);
+		people.add(julia);
+		people.add(emily);
+		people.add(new Student());
+		for(Person temp : people)
+		{
+			if (temp instanceof Student)
+			{
+				((Student) temp).outSick();
+			}
+		}
+		for(Person temp : people)
+		{
+		System.out.println(temp.getName());
 		}
 	}
 
