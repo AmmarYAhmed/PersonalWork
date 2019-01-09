@@ -65,7 +65,7 @@ public class moreInterfacePractice {
 		{
 			if (temp instanceof Student)
 			{
-				((Student) temp).outSick();
+				((Student)temp).outSick();
 			}
 		}
 		for(Person temp : people)
