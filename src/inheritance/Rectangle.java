@@ -11,12 +11,12 @@ public class Rectangle extends Quadrilateral{
 	bob.setSide4(4);
 	}
 
-	public Rectangle (int xSide1, int xSide2, int xSide3, int xSide4)
+	public Rectangle (double length, double width)
 	{
-		bob.setSide1(xSide1);
-		bob.setSide2(xSide2);
-		bob.setSide3(xSide3);
-		bob.setSide4(xSide4);
+		bob.setSide1(length);
+		bob.setSide2(length);
+		bob.setSide3(width);
+		bob.setSide4(width);
 	}
 	
 	public double area ()
