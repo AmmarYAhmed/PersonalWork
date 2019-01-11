@@ -9,12 +9,12 @@ private double side4;
 public Quadrilateral ()
 {
 side1 = 2.0;	
-side2 = 2.0;	
+side2 = 4.0;	
 side3 = 2.0;	
-side4 = 2.0;	
+side4 = 4.0;	
 }
 
-public Quadrilateral (int xSide1, int xSide2, int xSide3, int xSide4)
+public Quadrilateral (double xSide1, double xSide2, double xSide3, double xSide4)
 {
 	side1 = xSide1;
 	side2 = xSide2;
