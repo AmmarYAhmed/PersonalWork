@@ -1,26 +1,19 @@
 package inheritance;
 
-public class Rectangle extends Quadrilateral{
-	Quadrilateral bob = new Quadrilateral();
+public class Rectangle extends Parallelogram implements Geo{
+	
 	public Rectangle ()
 	{
-
-	bob.setSide1(2);
-	bob.setSide2(2);
-	bob.setSide3(4);
-	bob.setSide4(4);
+	super();
 	}
 
 	public Rectangle (double length, double width)
 	{
-		bob.setSide1(length);
-		bob.setSide2(length);
-		bob.setSide3(width);
-		bob.setSide4(width);
+		super(length, width, length);
 	}
 	
 	public double area ()
 	{
-		return bob.getSide1()*bob.getSide4();
+		return super.getSide1()*super.getSide2();
 	}
 }
