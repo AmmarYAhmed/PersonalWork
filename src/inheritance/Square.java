@@ -11,4 +11,9 @@ public class Square extends Rectangle implements Geo {
 	{
 		super(side,side);
 	}
+	
+	public String toString()
+	{
+		return super.toString();
+	}
 }

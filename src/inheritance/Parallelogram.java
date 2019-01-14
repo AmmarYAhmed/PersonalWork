@@ -29,6 +29,11 @@ public class Parallelogram extends Quadrilateral implements Geo{
 		{
 			return height;
 		}
+		
+		public String toString()
+		{
+			return "Parallelogram: " + super.toString() + ", Height= " + height;
+		}
 	}
 
 

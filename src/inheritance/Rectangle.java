@@ -16,4 +16,9 @@ public class Rectangle extends Parallelogram implements Geo{
 	{
 		return super.getSide1()*super.getSide2();
 	}
+	
+	public String toString()
+	{
+		return super.toString();
+	}
 }
