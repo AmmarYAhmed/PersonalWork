@@ -5,7 +5,7 @@ public class rectangleTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Rectangle bob = new Rectangle(10,20);
+		/*Rectangle bob = new Rectangle(10,20);
 		System.out.println(bob.perimeter());
 		System.out.println(bob.area());
 		Trapezoid frank = new Trapezoid(5,10,5,20,5);
@@ -22,7 +22,13 @@ public class rectangleTest {
 			{
 				largest=temp.area();
 			}
-		}
+		}*/
+		
+		Parallelogram bob = new Parallelogram(10,10,10);
+		bob.toString();
+		
+		Storage bobby = new Storage();
+		
 	}
 
 }
